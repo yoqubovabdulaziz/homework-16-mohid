@@ -176,6 +176,9 @@
     #mode-btn {
         margin-left: 200px;
     }
+    header {
+        position: fixed;
+    }
 }
 
 @media (max-width: 400px) {
