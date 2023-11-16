@@ -1,0 +1,129 @@
+/* ABOUT START */
+
+.dark #about * {
+    color: #FFF;
+}
+
+.dark .owl-card {
+    background-color: #333;
+}
+
+.dark .owl-card-1 {
+    background-color: #333;
+}
+
+.about-title {
+    text-align: center;
+}
+
+.about-title p {
+    color: #3858D6;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.about-title h1 {
+    color: #1E1D1D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+
+.owl-card-1 {
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 42.69px 30px 34.32px;
+    background-color: #F6F6F6;
+    border-radius: 22px;
+    gap: 28.72px;
+}
+
+.owl-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 42.69px 30px 34.32px;
+    background-color: #F6F6F6;
+    border-radius: 22px;
+    gap: 28.72px;
+}
+
+.owl-card h2 {
+    color: black;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.owl-card-1 h2 {
+    color: black;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.owl-card p {
+    color: #8B8E99;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.owl-card-1 p {
+    color: #8B8E99;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#team-carousel {
+    position: relative;
+    padding-bottom: 135px;
+}
+
+#team-carousel :is(.owl-prev, .owl-next) {
+    position: absolute;
+    top: 90px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #3858D6;
+    color: #FFF;
+}
+
+#team-carousel :is(.owl-prev, .owl-next):hover {
+    box-shadow: 0 0 2px 2px black;
+}
+
+#team-carousel .owl-prev {
+    left: -28px;
+}
+
+#team-carousel .owl-next {
+    right: -30px;
+}
+
+#team-carousel .owl-dot span {
+    width: 30px;
+    height: 15px;
+    transition: all 0.5s;
+}
+
+#team-carousel .owl-dot.active span {
+    width: 40px;
+    height: 15px;
+    background-color: #3858D6;
+}
+
+/* ABOUT END */

@@ -1,0 +1,231 @@
+@media (max-width: 1100px) {
+    .container {
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    header {
+        position: relative;
+        width: 100%;
+    }
+    .home {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .home .home-left,
+    .home .home-left p {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .home-left .search {
+        display: inline-block;
+        margin: 20px auto 0;
+    }
+
+    .search {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .search-button button {
+        right: -30px;
+    }
+    .brand-row {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .brand-card-text {
+        font-size: 30px;
+    }
+    .brand-card-text h1 {
+        font-size: 50px;
+    }
+    .product-row {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+}
+
+@media (max-width: 1000px) {  
+    .owl-card-1 {
+        height: 470px;
+    }
+    .owl-card-1 h2 {
+        font-size: 40px;
+    }
+    .owl-card h2 {
+        font-size: 40px;
+    }
+    .owl-card-1 p {
+        font-size: 25px;
+    }
+
+    .owl-card p {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 950px) {  
+    .owl-card-1 {
+        height: 400px;
+    }
+    #team-carousel :is(.owl-prev, .owl-next) {
+        top: 170px;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav-list {
+        display: none;
+    }
+    .hamburger {
+        display: inline-block;
+    }
+    .footer-row {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 700px) {
+    .product-row {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .owl-card-1 h2 {
+        font-size: 20px;
+    }
+    .owl-card h2 {
+        font-size: 20px;
+    }
+    .owl-card-1 p {
+        font-size: 15px;
+    }
+    .owl-card p {
+        font-size: 15px;
+    }
+    .owl-card-1 {
+        height: 260px;
+    }
+    #team-carousel :is(.owl-prev, .owl-next) {
+        top: 100px;
+    }
+}
+
+@media (max-width: 550px) {
+    .home-left h1 {
+        height: 150px;
+        font-size: 50px;
+        margin-bottom: 120px;
+    }
+    .home-left p {
+        font-size: 15px;
+    }
+    .home-right img {
+        width: 350px;
+    }
+}
+
+@media (max-width: 500px) {
+    #team-carousel :is(.owl-prev, .owl-next) {
+        top: 160px;
+    }
+    .brand-card {
+        display: inline;
+        text-align: center;
+    }
+    .footer-row {
+        text-align: center;
+    }
+    .footer-form input {
+        padding: 20px 25% 20px 35px;
+    }
+    .footer-form button {
+        right: 50px;
+    }
+}
+
+@media (max-width: 450px) {
+    .nav-end i {
+        display: none;
+    }
+    #mode-btn {
+        margin-left: 90px;
+    }
+    #team-carousel :is(.owl-prev, .owl-next) {
+        top: 90px;
+    }
+    .owl-card {
+        display: block;
+    }
+    .owl-card-1 {
+        display: block;
+        height: 580px;
+    }
+    #team-carousel :is(.owl-prev, .owl-next) {
+        top: 200px;
+    }
+    .footer-form button {
+        right: 10px;
+    }
+    #mode-btn {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 400px) {
+    .owl-card-1 {
+        height: 500px;
+    }
+    .brand-card h1 {
+        font-size: 40px;
+    }
+    .brand-card p {
+        font-size: 20px;
+    }
+    header {
+        position: fixed;
+    }
+    .home-right img {
+        width: 300px;
+    }
+    #mode-btn {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 360px) {
+    .footer-form button {
+        right: 50px;
+    }
+    .footer-form button {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 40px;
+    }
+    .footer-form input {
+        padding: 20px 10% 20px 10px;
+        margin-bottom: 20px;
+    }
+    .home-right {
+        margin-top: -100px;
+    }
+    header {
+        position: fixed;
+    }
+}
+
+@media (max-width: 350px) {
+    .owl-card-1 {
+        height: 450px;
+    }
+    #mode-btn {
+        margin-left: 200px;
+    }
+}
